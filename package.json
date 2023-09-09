@@ -1,0 +1,21 @@
+{
+  "name": "pptree",
+  "version": "0.0.1",
+  "description": "用于终端打印项目树结构",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://register.npmjs.org",
+    "access": "public"
+  },
+  "bin": {
+    "pptree": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pub",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
